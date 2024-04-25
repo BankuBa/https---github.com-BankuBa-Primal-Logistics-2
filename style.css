@@ -463,6 +463,8 @@ h2 {
     width: 100%;
     height: 80vh;
     background-image: url("images/bgMobile.jpg");
+    background-position: center;
+    background-size: cover;
   }
   /* section 1 text */
   #redBgText {
@@ -587,6 +589,7 @@ border: none;
   padding: 0;
   width:100%;
   margin-left:auto;
+  margin-right: auto;
 }
 .section4B2txt h1{
   width: 100%;
