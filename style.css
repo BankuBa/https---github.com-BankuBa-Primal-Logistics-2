@@ -1,0 +1,542 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ body{
+  min-height: 100vh;
+ }
+ nav{
+  background-color: rgba(255, 255, 255, 0.632);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+ }
+ nav img{
+  width: 10rem;
+  height: 50px;
+ }
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav li{
+  height: 50px;
+}
+nav a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+nav a:hover{
+  background-color:#f0f0f0;
+}
+nav li:first-child{
+margin-right: auto;
+}
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.197);
+  backdrop-filter: blur(10px);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar li{
+  width: 100%;
+}
+.sidebar a{
+  width: 100%;
+}
+.sideBarIcon{
+  display:none;
+}
+.infobar{
+  width: 100%;
+  
+}
+.infobar ul{
+  width: 100%;
+  height: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.infobar li{
+  display: flex;
+  height: 100%;
+  margin-left: 3rem;
+  height: 26px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.infobar li:nth-child(2){
+margin-right: auto;
+}
+
+.infobar li p{
+  height: 100%;
+  margin-top: 3px;
+  
+}
+
+.section_1{
+  width: 100;
+  height: 53.75rem;
+  background-image: url("images/trucks-rotate.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+} 
+#redBg {
+  width: 60%;
+}
+#redBgText{
+  position: absolute;
+  padding: 9rem 3rem 5rem 3rem;
+  width: 42rem;
+  color: white;
+}
+
+#redBgText h1{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+ font-size: 65px;
+}
+#redBgTextButton button {
+background-color: red;
+color: white;
+width: 150px;
+height: 50px;
+border-radius: 5px;
+border-color: white;
+}
+#redBgTextButton button:hover{
+  background-color: black;
+}
+#redBgTextButton{
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+}
+#redBgTextButton ul{
+  list-style: none;
+  display: flex;
+  margin-left: 2rem;
+}
+#redBgTextButton svg{
+  margin-top: 10px;
+  margin-right: 1rem;
+}
+/* Section 2 */
+.section_2{
+  display: flex;
+  width: 100%;
+}
+#section_2_images{
+  padding-top:5rem;
+  position :relative;
+ margin-left: auto;
+ margin-right: 2rem;
+}
+
+#section_2_images img{
+  height: 30rem;
+  width: 18rem;
+  border-radius: 20rem;
+}
+
+#section_2_image_2{
+  position:absolute;
+  margin-left: -8rem;
+  margin-top:8rem;
+  
+}
+
+#section_2_text{
+  width: 40%;
+  margin-left: auto;
+  margin-right: 10%;
+  margin-top:8rem;
+
+}
+#section_2_text h3{
+  color: rgb(255, 0, 0);;
+}
+#section_2_text h1{
+  font-size: 55px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#list{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 22rem;
+  font-size: 22px;
+}
+.section_2 button{
+  background-color: rgb(57, 135, 230);
+color: white;
+width: 140px;
+height: 40px;
+border: 0;
+border-radius: 5px;
+margin-top: 2rem;
+margin-bottom: auto;
+}
+button:hover{
+  background-color: black;
+}
+
+/* Section 3 */
+.section3 {
+  width: 100%;
+  margin-top: 10rem;
+  padding-bottom: 3rem;
+  background-color: rgb(248, 248, 248);
+}
+#section3Txt {
+  max-width: 40rem;
+  margin-left: 10%;
+}
+
+#section3Txt h1 {
+  font-size: 60px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+#section3Txt h3 {
+  color: red;
+  margin-top: 1rem;
+}
+
+.serviceImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.serviceImages img {
+  width: 25rem;
+  border-top-right-radius: 40%;
+  border-top-left-radius: 1rem;
+}
+
+.serviceImagAndTxt:hover {
+  transform: scale(1.1);
+  transition: 1.15s;
+}
+
+
+.serviceImagAndTxt {
+  max-width: 25rem;
+  position: relative;
+}
+
+.serviceImagAndTxt h2 {
+  padding-top: 4rem;
+}
+
+.serviceImagAndTxt p,
+h2 {
+  padding: 1.5rem 1.5rem 0.2rem 1.5rem;
+  background-color: white;
+}
+.serviceImagAndTxt p {
+  padding-bottom: 3rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.serviceImagAndTxt svg {
+  position: absolute;
+  margin-top: -20rem;
+  margin-left: 17rem;
+  background-color: red;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  width: 100px;
+  height: auto;
+  color: #ffff;
+}
+
+/* Section 4 */
+
+.section4 {
+  margin-top: 4rem;
+  text-align: center;
+  list-style: none;
+  justify-content: center;
+  align-content: center;
+  width: 100;
+}
+
+.section4Image {
+  max-width: 15rem;
+  text-align: center;
+}
+
+.section4Image svg {
+  border: solid 2px red;
+  border-radius: 50%;
+  color: red;
+}
+
+.timegraph ul {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  display: flex;
+  list-style: none;
+  background-image: url(images/Line.svg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+.section4Image svg:hover{
+  background-color: rgb(61, 57, 57);
+  color: white;
+   border: solid 2px rgb(242, 239, 239);
+  cursor: pointer;
+  scale: 1.2;
+  transition: 1.15s;
+
+}
+
+#section4Image4 {
+  position: absolute;
+  margin-left: 66rem;
+  margin-top: 3rem;
+}
+
+#section4Image3 {
+  position: absolute;
+  margin-left: 44rem;
+  margin-top: -1rem;
+}
+
+#section4Image2 {
+  position: absolute;
+  margin-left: 23rem;
+  margin-top: 3.5rem;
+}
+
+#section4Image1 {
+  margin-top: -2rem;
+}
+ /* Section 4 B */
+
+ .section4B {
+  display: flex;
+  padding: 4rem;
+  gap: 2rem;
+  text-align: start;
+  position: relative;
+}
+
+.section4B img {
+  width: 40rem;
+  height: auto;
+}
+
+.section4BList {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.2rem;
+  list-style: url(images/circle-dashed-check.svg);
+  background-color: red;
+  border-bottom-right-radius: 4rem;
+  padding: 3rem;
+  color: #ffff;
+  margin-top: 2rem;
+  margin-left: -5rem;
+  height: 20.7rem;
+}
+
+.section4B2txt h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+
+
+
+
+/* Mobile View */
+
+@media (max-width:720px) {
+  .hideOnMobile{
+    display: none;
+  }
+  .sideBarIcon{
+    display: flex;
+  }
+  .infobar :nth-child(3),.infobar :nth-child(4){
+    display: none;
+  }
+  .infobar li{
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+   /* section 1 */
+  .section_1{
+    width: 100%;
+    height: 80vh;
+    background-image: url("images/bgMobile.jpg");
+  }
+  /* section 1 text */
+  #redBgText {
+width: auto;
+padding-top: 2rem;
+margin-top: auto;
+margin-bottom: auto;
+ color: rgb(255, 255, 255);
+}
+#redBgText h1{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+ font-size: 40px;
+}
+#redBgTextButton{
+  flex-direction: column;
+}
+#redBgTextButton button {
+background-color: rgb(57, 135, 230);
+border: none;
+}
+/* Section 2 */
+.section_2{
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+}
+#section_2_images{
+  margin-left:-20px; 
+}
+
+
+#section_2_text{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:8rem;
+
+}
+#section_2_text h3{
+  margin-top:1rem;
+  font-size: 14px;
+  color: rgb(255, 0, 0);;
+}
+#section_2_text h1{
+  font-size: 30px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#list{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 20rem;
+  font-size: 22px;
+}
+
+.serviceImages {
+ flex-direction: column;
+  gap: 3rem;
+}
+
+/* section 4 */
+.timegraph ul {
+  background-size: contain;
+  position: relative;
+  width: 30rem;
+}
+
+.section4Image svg {
+  border:none;
+ width: 40px;
+ height: 40px;
+ border: solid 2px;
+}
+.section4Image h3{
+  font-size: 10px;
+}
+#section4Image1 {
+  margin-top:-10px;
+}
+
+#section4Image2 {
+  margin-left:9.2rem ;
+  margin-top: 1.3rem;
+}
+#section4Image3 {
+  margin-left 11.5rem; ;
+  margin-top: -5px;
+}
+#section4Image3 {
+  margin-left:16.7rem ;
+  margin-top: -5px;
+}
+#section4Image4 {
+  margin-left:24rem ;
+  margin-top: 1rem;
+}
+
+/* section 4 B */
+.section4B{
+  flex-direction: column;
+}
+.section4B img {
+  width: 98%;
+  height: auto;
+}
+
+ .section4BList {
+  border-bottom-right-radius: 4rem;
+  padding: 3rem;
+  color: #ffffff;
+  margin-top: 2rem;
+  flex-direction: column;
+    margin-left: auto;
+}
+.section4B2{
+  padding: 0;
+  width:100%;
+  margin-left:auto;
+}
+.section4B2txt h1{
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.section4B2txt p{
+  width: 100%;} 
+}
