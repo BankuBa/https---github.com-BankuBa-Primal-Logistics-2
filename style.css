@@ -211,6 +211,7 @@ button:hover{
 .section3 {
   width: 100%;
   margin-top: 10rem;
+  padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: rgb(248, 248, 248);
 }
@@ -383,6 +384,53 @@ h2 {
 }
 
 
+/* Section 5 */
+
+
+.section5{
+  text-align: center;
+  padding: 4rem;
+    background-color: rgb(248, 248, 248);
+}
+
+.teamImage img{
+  width: 20rem;
+  border-radius: 1rem;
+ 
+}
+.team{
+  display: flex; 
+  gap: 2rem;
+  justify-content: center;
+  margin: 3rem 0 3rem 0rem;
+}
+
+.teamNames {
+  display: flex;
+  gap: 9rem;
+  justify-content:center ;
+  margin-top: -5rem;  
+}
+
+.name ,.name h2{
+  background-color: #ffff;
+  border-radius:0.5rem;
+}
+
+.section5Buton{
+  padding: 1rem;
+  width:12rem;
+  margin-top: 3rem;
+  color: #ffff;
+  background-color: red;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.section5Buton:hover{
+  cursor: pointer;
+  background-color: black;
+}
 
 
 
@@ -498,7 +546,7 @@ border: none;
   margin-top: 1.3rem;
 }
 #section4Image3 {
-  margin-left 11.5rem; ;
+  margin-left: 11.5rem; 
   margin-top: -5px;
 }
 #section4Image3 {
@@ -521,11 +569,12 @@ border: none;
 
  .section4BList {
   border-bottom-right-radius: 4rem;
-  padding: 3rem;
+  padding: 0.5rem;
   color: #ffffff;
   margin-top: 2rem;
   flex-direction: column;
     margin-left: auto;
+    height: auto;
 }
 .section4B2{
   padding: 0;
@@ -539,4 +588,29 @@ border: none;
 }
 .section4B2txt p{
   width: 100%;} 
+
+  /* Section 5 */
+  .teamImage img{
+  width: 10rem;
+  border-radius: 1rem;
+ 
+}
+.team{
+margin-left: auto;
+  gap: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0 3rem 0rem;
+}
+.name h2{
+  width: 7rem;
+  font-size: 15px;
+  padding: 0;
+}
+.name p{
+  font-size: 10px;
+}
+.teamNames{
+  gap: 5rem;
+}
 }
