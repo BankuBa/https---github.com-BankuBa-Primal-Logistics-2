@@ -612,7 +612,7 @@ margin-left: auto;
   justify-content: center;
   align-items: center;
   margin: 3rem 0 3rem 0rem;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 .name h2{
   width: 7rem;
