@@ -551,20 +551,20 @@ border: none;
 }
 
 #section4Image2 {
-  margin-left:9.2rem ;
-  margin-top: 1.3rem;
+  margin-left:6.5rem ;
+  margin-top: 0.8rem;
 }
 #section4Image3 {
   margin-left: 11.5rem; 
   margin-top: -5px;
 }
 #section4Image3 {
-  margin-left:16.7rem ;
+  margin-left:11.7rem ;
   margin-top: -5px;
 }
 #section4Image4 {
-  margin-left:24rem ;
-  margin-top: 1rem;
+  margin-left:18rem ;
+  margin-top: 0.5rem;
 }
 
 /* section 4 B */
@@ -600,6 +600,7 @@ border: none;
   width: 100%;} 
 
   /* Section 5 */
+
   .teamImage img{
   width: 10rem;
   border-radius: 1rem;
@@ -611,6 +612,7 @@ margin-left: auto;
   justify-content: center;
   align-items: center;
   margin: 3rem 0 3rem 0rem;
+  flex-wrap: wrap;
 }
 .name h2{
   width: 7rem;
@@ -622,6 +624,8 @@ margin-left: auto;
 }
 .teamNames{
   margin-top: -3.5rem;
-  gap: 5rem;
+  gap: 14rem;
+  flex-wrap: wrap;
+  margin-top: -36.2rem;
 }
 }
