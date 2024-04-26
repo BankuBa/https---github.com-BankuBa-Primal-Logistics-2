@@ -570,19 +570,16 @@ margin-top: 1rem;
 }
 
 #section4Image2 {
-  margin-left:6.5rem ;
+  margin-left:9rem ;
   margin-top: 0.8rem;
 }
 #section4Image3 {
-  margin-left: 11.5rem; 
+  margin-left: 16rem; 
   margin-top: -5px;
 }
-#section4Image3 {
-  margin-left:11.7rem ;
-  margin-top: -5px;
-}
+
 #section4Image4 {
-  margin-left:18rem ;
+  margin-left:23rem ;
   margin-top: 0.5rem;
 }
 
@@ -596,6 +593,7 @@ margin-top: 1rem;
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -9rem;
 }
 
  .section4BList {
