@@ -503,7 +503,7 @@ footer svg{
   .section_1{
     width: 100%;
     height: 80vh;
-    background-image: url("images/bgMobile.jpg");
+    background-image: linear-gradient(0deg,rgba(255, 0, 0, 0.836),rgba(0, 0, 255, 0.212)) ,url("images/bgMobile.jpg");
     background-position: center;
     background-size: cover;
   }
